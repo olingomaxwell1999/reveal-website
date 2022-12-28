@@ -37,6 +37,14 @@ const Navbar = () => (
                     <Link href='/search?purpose=for-rent' passHref>
                         <MenuItem icon={<FiKey/>} >Rent Property</MenuItem>
                     </Link>
+
+                    <Link href='/contact' passHref>
+                        <MenuItem icon={<FiKey/>} >Contact Us</MenuItem>
+                    </Link>
+
+                    <Link href='/process' passHref>
+                        <MenuItem icon={<FiKey/>} >Our Processes</MenuItem>
+                    </Link>
                 </MenuList>
             </Menu>
         </Box>
