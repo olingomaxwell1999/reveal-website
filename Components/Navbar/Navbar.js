@@ -8,6 +8,10 @@ import {BsSearch} from 'react-icons/bs'
 
 import {FiKey} from 'react-icons/fi'
 
+import {GrContact} from 'react-icons/gr'
+
+import {FcProcess} from 'react-icons/fc'
+
 const Navbar = () => (
     <Flex p='2' borderBottom='1px' borderColor='gray.100'>
         <Box fontSize='3x1' color='blue.400' fontWeight='bold'>
@@ -39,11 +43,11 @@ const Navbar = () => (
                     </Link>
 
                     <Link href='/contact' passHref>
-                        <MenuItem icon={<FiKey/>} >Contact Us</MenuItem>
+                        <MenuItem icon={<GrContact/>} >Contact Us</MenuItem>
                     </Link>
 
                     <Link href='/process' passHref>
-                        <MenuItem icon={<FiKey/>} >Our Processes</MenuItem>
+                        <MenuItem icon={<FcProcess/>} >Our Processes</MenuItem>
                     </Link>
                 </MenuList>
             </Menu>
